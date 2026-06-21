@@ -50,3 +50,6 @@ next-env.d.ts
 # SQLite database (dev)
 *.db
 *.db-journal
+
+# PM2 logs
+/logs/
