@@ -20,20 +20,20 @@
 - [x] 1.7 Responsive (mobile-first con Tailwind)
 - [x] 1.8 Performance (build ok, HTTP 200)
 
-## Fase 2 — Questionario
-- [ ] 2.1 Navigazione step
-- [ ] 2.2 Progress bar
-- [ ] 2.3 Step 1 — Settore
-- [ ] 2.4 Step 2 — Scopo
-- [ ] 2.5 Step 3 — Utenti
-- [ ] 2.6 Step 4 — Decisioni
-- [ ] 2.7 Step 5 — Dati
-- [ ] 2.8 Step 6 — Sicurezza
-- [ ] 2.9 Step 7 — Interazione
-- [ ] 2.10 Step 8 — Contatto
-- [ ] 2.11 Completamento
-- [ ] 2.12 Errori
-- [ ] 2.13 Accessibilità
+## Fase 2 — Questionario ✅
+- [x] 2.1 Navigazione step (React state + localStorage)
+- [x] 2.2 Progress bar
+- [x] 2.3 Step 1 — Settore (card selezionabili + campo "Altro")
+- [x] 2.4 Step 2 — Scopo (textarea con validazione 10+ caratteri)
+- [x] 2.5 Step 3 — Utenti (checkbox multipli)
+- [x] 2.6 Step 4 — Decisioni autonome (Sì/No + checkbox condizionali)
+- [x] 2.7 Step 5 — Dati trattati (checkbox toggle)
+- [x] 2.8 Step 6 — Componente sicurezza (Sì/No + checkbox condizionali)
+- [x] 2.9 Step 7 — Interazione umana (card selezionabili)
+- [x] 2.10 Step 8 — Contatto (email opzionale + submit)
+- [x] 2.11 Submit → API + redirect a report
+- [x] 2.12 Gestione errori (validazione per-step, error banner, localStorage fallback)
+- [x] 2.13 Accessibilità (Label, aria-label su bottoni, focus visibile)
 
 ## Fase 3 — Backend
 - [ ] 3.1 API /api/questionnaire

@@ -1,10 +1,12 @@
+import { QuestionnaireForm } from "@/components/questionnaire/questionnaire-form";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Valutazione AI Act — Questionario",
+  description:
+    "Rispondi a 8 domande per scoprire la classificazione di rischio del tuo sistema AI secondo l'AI Act.",
+};
+
 export default function QuestionarioPage() {
-  return (
-    <div className="flex min-h-screen items-center justify-center">
-      <div className="text-center">
-        <h1 className="text-2xl font-bold">Questionario AI Act</h1>
-        <p className="mt-2 text-muted-foreground">Prossimamente disponibile.</p>
-      </div>
-    </div>
-  );
+  return <QuestionnaireForm />;
 }
