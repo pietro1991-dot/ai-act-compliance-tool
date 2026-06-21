@@ -10,15 +10,15 @@
 - [x] 0.5 .env / .env.example
 - [x] 0.6 Struttura cartelle
 
-## Fase 1 — Landing
-- [ ] 1.1 Hero
-- [ ] 1.2 Come funziona
-- [ ] 1.3 Categorie rischio
-- [ ] 1.4 Target utenti
-- [ ] 1.5 CTA finale
-- [ ] 1.6 Header/Footer
-- [ ] 1.7 Responsive
-- [ ] 1.8 Performance
+## Fase 1 — Landing ✅
+- [x] 1.1 Hero
+- [x] 1.2 Come funziona
+- [x] 1.3 Categorie rischio
+- [x] 1.4 Target utenti
+- [x] 1.5 CTA finale
+- [x] 1.6 Header/Footer
+- [x] 1.7 Responsive (mobile-first con Tailwind)
+- [x] 1.8 Performance (build ok, HTTP 200)
 
 ## Fase 2 — Questionario
 - [ ] 2.1 Navigazione step
