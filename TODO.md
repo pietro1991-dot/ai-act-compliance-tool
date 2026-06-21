@@ -2,13 +2,13 @@
 
 > Spunta ciò che completi. Usa `- [x]` per completato, `- [ ]` per da fare.
 
-## Fase 0 — Setup
-- [ ] 0.1 Init Next.js
-- [ ] 0.2 shadcn/ui
-- [ ] 0.3 Prisma
-- [ ] 0.4 PostgreSQL
-- [ ] 0.5 .env.local
-- [ ] 0.6 Struttura cartelle
+## Fase 0 — Setup ✅
+- [x] 0.1 Init Next.js
+- [x] 0.2 shadcn/ui
+- [x] 0.3 Prisma
+- [x] 0.4 SQLite (dev)
+- [x] 0.5 .env / .env.example
+- [x] 0.6 Struttura cartelle
 
 ## Fase 1 — Landing
 - [ ] 1.1 Hero
