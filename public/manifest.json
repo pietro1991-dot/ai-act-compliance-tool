@@ -1,0 +1,13 @@
+{
+  "name": "AI Act Check",
+  "short_name": "AI Act Check",
+  "description": "Valuta la conformità del tuo sistema AI al Regolamento UE 2024/1689",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4f46e5",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}
