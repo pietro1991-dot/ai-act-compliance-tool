@@ -378,7 +378,7 @@ export function ReportView({ reportId }: { reportId: string }) {
       )}
 
       {/* DOWNLOAD */}
-      <div className="mb-10 flex justify-center">
+      <div className="mb-10 flex flex-wrap justify-center gap-3">
         <Button
           variant="outline"
           onClick={() => {
@@ -394,6 +394,25 @@ export function ReportView({ reportId }: { reportId: string }) {
           }}
         >
           Scarica report (.md)
+        </Button>
+        <Button
+          onClick={async () => {
+            try {
+              const res = await fetch(`/api/report/${data.id}/pdf`);
+              if (!res.ok) throw new Error("Errore generazione PDF");
+              const blob = await res.blob();
+              const url = URL.createObjectURL(blob);
+              const a = document.createElement("a");
+              a.href = url;
+              a.download = `ai-act-report-${data.id.slice(0, 8)}.pdf`;
+              a.click();
+              URL.revokeObjectURL(url);
+            } catch {
+              alert("Errore nella generazione del PDF. Riprova.");
+            }
+          }}
+        >
+          Scarica report (.pdf)
         </Button>
       </div>
 

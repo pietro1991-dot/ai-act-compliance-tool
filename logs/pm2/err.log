@@ -158,3 +158,4 @@
 2026-06-21 10:54:45:   address: '::',
 2026-06-21 10:54:45:   port: 3000
 2026-06-21 10:54:45: }
+2026-06-21 11:11:58: Questionnaire error: CLAUDE_API_KEY environment variable is not set
