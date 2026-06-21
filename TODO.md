@@ -35,15 +35,15 @@
 - [x] 2.12 Gestione errori (validazione per-step, error banner, localStorage fallback)
 - [x] 2.13 Accessibilità (Label, aria-label su bottoni, focus visibile)
 
-## Fase 3 — Backend
-- [ ] 3.1 API /api/questionnaire
-- [ ] 3.2 Prompt classificazione
-- [ ] 3.3 Prompt report
-- [ ] 3.4 Claude wrapper
-- [ ] 3.5 API GET report/[id]
-- [ ] 3.6 API PDF report/[id]/pdf
-- [ ] 3.7 API /api/lead
-- [ ] 3.8 API /api/contact
+## Fase 3 — Backend + Claude ✅
+- [x] 3.1 API /api/questionnaire (POST)
+- [x] 3.2 Prompt classificazione (AI Act completo)
+- [x] 3.3 Prompt report (gap analysis)
+- [x] 3.4 Claude wrapper (retry 2x, timeout 30s, fallback classification)
+- [x] 3.5 API GET report/[id]
+- [x] 3.6 API POST report (via questionnaire route)
+- [x] 3.7 API /api/lead
+- [x] 3.8 API /api/contact
 
 ## Fase 4 — Report
 - [ ] 4.1 Layout /report/[id]
