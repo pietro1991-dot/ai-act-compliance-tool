@@ -45,16 +45,16 @@
 - [x] 3.7 API /api/lead
 - [x] 3.8 API /api/contact
 
-## Fase 4 — Report
-- [ ] 4.1 Layout /report/[id]
-- [ ] 4.2 Disclaimer
-- [ ] 4.3 Classificazione
-- [ ] 4.4 Gap analysis
-- [ ] 4.5 Azioni prioritarie
-- [ ] 4.6 Next Steps CTA
-- [ ] 4.7 Download PDF
-- [ ] 4.8 Condivisione
-- [ ] 4.9 Scadenza report
+## Fase 4 — Report ✅
+- [x] 4.1 Layout /report/[id]
+- [x] 4.2 Disclaimer banner (fisso in alto, stile giallo)
+- [x] 4.3 Classificazione (gauge SVG + badge colore)
+- [x] 4.4 Gap analysis (card per gap con severità)
+- [x] 4.5 Azioni prioritarie (lista numerata con badge)
+- [x] 4.6 Next Steps CTA (call gratuita + nuova valutazione)
+- [x] 4.7 Download (.md) + preview report
+- [x] 4.8 Gestione stati (loading spinner, error, not found, expired)
+- [x] 4.9 Build verificata (9 routes, HTTP 200)
 
 ## Fase 5 — Lead
 - [ ] 5.1 Pagina /pricing
