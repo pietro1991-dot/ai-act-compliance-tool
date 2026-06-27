@@ -33,9 +33,13 @@ yarn-error.log*
 # env files (can opt-in for committing if needed)
 .env*
 
-# personal files (CV, chats)
+# personal files (CV, chats, documenti personali)
 /Chat con claude
 /Cv *.pdf
+/CV.md
+/CV.pdf
+/AuditTrail.pdf
+/Domanda Iscrizione*
 
 # vercel
 .vercel
