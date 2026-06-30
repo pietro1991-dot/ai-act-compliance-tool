@@ -58,6 +58,10 @@ Il tool vive in **due fasi**. La copy e le campagne vanno scritte per entrambe (
 3. `03-funnel-hvco.md` — il percorso lead → cliente
 4. `04-copy-messaggi.md` — le **parole** (landing, email, post)
 5. `05-traffico-e-piano.md` — **come** porti traffico + piano 30/60/90 + metriche
+6. `06-business-model.md` — **il modello di business scelto e analizzato** (parti da qui per il quadro d'insieme)
+7. `07-prezzi-e-retainer.md` — **prezzi fissati + formula del retainer** + scenari verso gli obiettivi
+8. `08-analisi-critica.md` — **il red team**: le crepe del piano. Leggilo PRIMA di eseguire
+9. `09-guida-conversazioni.md` — **la guida alle 10 conversazioni di validazione** (il primo passo reale: esci dai documenti)
 
 ## Decisioni che servono da te (non posso prenderle io)
 
